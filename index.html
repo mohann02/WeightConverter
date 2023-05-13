@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!-- Title of your Converter -->
+
+    <div class="container">
+
+        <h2 class="heading">Weight Converter</h2>
+
+         <p class="heading1">
+            <label>Kilograms(KGs)</label>
+
+            <input id="Kilograms" type="number" placeholder="kilograms" oninput="kiloweightConvert(this.value)"
+                onchange="kiloweightConvert(this.value)" />
+        </p>
+
+        <!-- output field-->
+
+        <p id="sub-head">
+            Pounds: <span id="Pounds"></span>
+
+        </p>
+        <p id="sub-head">
+            Ounces: <span id="Ounces"></span>
+
+        </p>
+
+        <p id="sub-head">
+            Grams: <span id="Grams"></span>
+
+        </p>
+
+     </div>
+
+    <script src="index.js"> </script>
+</body>
+
+</html>
